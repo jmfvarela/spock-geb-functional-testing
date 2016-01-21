@@ -1,4 +1,5 @@
 Proof of concept: functional testing with Spock and Geb.
+
 Tested in Windows.
 
 # Requirements
@@ -31,7 +32,3 @@ You can develop your own test cases (named specifications in Spock) in `testWiki
 # Learning about Spock and Geb
 * Spock Framework Reference Documentation (http://spockframework.github.io/spock/docs).
 * The Book Of Geb (http://www.gebish.org/manual/current).
-
-
-
-[@jmfvarela] (https://twitter.com/jmfvarela)
