@@ -1,13 +1,12 @@
-# testWikipediaSpock
-Sample functional testing of Wikipedia with Spock.
+Proof of concept: functional testing with Spock and Geb.
+Tested in Windows.
 
-Requeriments:
+# Requirements
 * Gradle (http://gradle.org/gradle-download).
 * ChromeDriver (https://sites.google.com/a/chromium.org/chromedriver/downloads).
 
-Configuration:
+# Configuration
 * Edit file `testWikipediaSpock/src/test/resources/GebConfig.groovy` and set your ChromeDriver path in:
-
 ```
 driver = {
 	System.setProperty('webdriver.chrome.driver', 'C:\\backup\\tools\\ChromeDriver\\chromedriver.exe')
@@ -15,22 +14,21 @@ driver = {
 }
 ```
 
-Running the tests:
-
+# Running tests
 ```
 cd testWikipediaSpock
 gradle test
 ```
 
-Ckecking the result report:
-
+# Result report
 ```
 testWikipediaSpock/build/reports/tests/index.html
 ```
 
-You can develop your own specifications (test cases) in `testWikipediaSpock/src/test/groovy`.
+# Developing your tests
+You can develop your own test cases (named specifications in Spock) in `testWikipediaSpock/src/test/groovy`.
 
-Learning about Spock and Geb:
+# Learning about Spock and Geb
 * Spock Framework Reference Documentation (http://spockframework.github.io/spock/docs).
 * The Book Of Geb (http://www.gebish.org/manual/current).
 
